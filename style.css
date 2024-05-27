@@ -118,9 +118,9 @@ h3{
     color: hsl(210, 100%, 40%);
     background-color: rgb(255, 255, 255);
     border: rgb(243, 243, 243) solid;
-    padding: 10px 18px;
+    padding: 10px 16px;
     border-radius: 15%;
-    margin: auto 5px;
+    margin: auto 1px;
     cursor: pointer;
 }
 
@@ -129,7 +129,7 @@ h3{
 }
 
 .iconbuttontext i {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .intro i {
@@ -139,7 +139,7 @@ h3{
 .read {
     text-align: left;
     font-size: 20px;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 
 #credited {
@@ -148,6 +148,10 @@ h3{
 
 em, span {
     color: gray;
+}
+
+.intro p {
+    font-size: 15px;
 }
 
 a {
@@ -161,7 +165,7 @@ a:hover {
 
 aside {
     border: 1px rgba(144, 140, 140, 0.417) solid;
-    margin: 245px auto 100px 15px;
+    margin: 255px auto 80px 15px;
 }
 
 hr {
