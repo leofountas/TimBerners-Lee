@@ -138,7 +138,7 @@ h3{
 
 .read {
     text-align: left;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.5em;
 }
 
@@ -161,7 +161,7 @@ a:hover {
 
 aside {
     border: 1px rgba(144, 140, 140, 0.417) solid;
-    margin: 245px auto 70px 15px;
+    margin: 245px auto 100px 15px;
 }
 
 hr {
