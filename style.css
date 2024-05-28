@@ -99,7 +99,7 @@ nav i {
     background-color: white;
     grid-area: section;
     max-width: 45%;
-    margin:auto auto 1px 45px;
+    margin:auto auto 50px 45px;
     padding: 20px 20px ;
     display: flex;
 }
@@ -116,7 +116,7 @@ h3{
     margin: 3px auto 20px auto;
 }
 
-.intro button {
+.iconbuttontext, .dotsbutton {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: hsl(210, 100%, 40%);
     background-color: rgb(255, 255, 255);
@@ -179,7 +179,7 @@ hr {
 
 figure  img {
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
     height: auto;
 }
 
@@ -215,21 +215,16 @@ aside button:hover {
     background-color: hsl(198, 100%, 50%);
 }
 
-
-
 /*desktop responsive*/
 @media (min-width: 600px) {
     #sciencetech {
         display: none;
     }
     
-    .mobilebutton,.subscribebuttonmobile {
+    .mobilebutton,.subscribebuttonmobile, .tablebutton {
         display: none;
     }
 }
-
-
-
 
 
 /* mobile responsive*/
@@ -287,11 +282,10 @@ aside button:hover {
         min-width: 100%;
         margin: 0;
         flex-direction: column;
-        overflow: visible;
         justify-content: center;
     }
 
-    .intro button {
+    .iconbuttontext, .dotsbutton {
         display: none;
     }
 
@@ -306,7 +300,24 @@ aside button:hover {
         border-radius: 10px;
     }
 
+    .tablebutton {
+        background-color: white;
+        color: hsl(210, 100%, 40%);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        padding: 12px 12px;
+        border-radius: 10px;
+        margin-inline: 15%;
+    }
+
+    .tablebutton i {
+        margin-right: 20px;
+        font-size: 15px;
+    }
+
     aside {
-        margin-top: 0;
+       margin-top: 0;
     }
 }
